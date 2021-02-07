@@ -21,6 +21,7 @@
 		EB34F8BD25D03E9D00ED1C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB34F8BF25D03E9D00ED1C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB34F8C025D03E9D00ED1C2A /* GReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GReader.entitlements; sourceTree = "<group>"; };
+		EB34F8C725D0653000ED1C2A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 				EB34F8BC25D03E9D00ED1C2A /* Main.storyboard */,
 				EB34F8BF25D03E9D00ED1C2A /* Info.plist */,
 				EB34F8C025D03E9D00ED1C2A /* GReader.entitlements */,
+				EB34F8C725D0653000ED1C2A /* README.md */,
 			);
 			path = GReader;
 			sourceTree = "<group>";
