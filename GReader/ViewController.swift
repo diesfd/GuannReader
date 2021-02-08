@@ -6,12 +6,24 @@
 //
 
 import Cocoa
-import Carbon.HIToolbox
+import PDFKit
 
 class ViewController: NSViewController {
     
+// MARK: - Outlets
     @IBOutlet weak var inputTextLabel: NSTextField!
+    @IBOutlet weak var pdfView: PDFView!
+    
+// MARK: - Properties
     var inputBuffer = ""
+    
+    var currentMode: Mode = .normalMode
+    
+    var url: URL?
+    
+    var pdfDocument: PDFDocument?
+    
+//
     override func viewDidLoad() {
         super.viewDidLoad()
         

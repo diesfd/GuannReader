@@ -10,3 +10,4 @@ GuannReader is a vim-like pdf reader. Users can read PDF files without a mouse o
 - More vim functions.
 - LOGO
 - i18n
+- Working on NSDocumentController for open file in menu item [File -> Open], refer [iina](https://github.com/iina/iina/blob/develop/iina/AppDelegate.swift)  @IBAction func openFile(_ sender: AnyObject)
