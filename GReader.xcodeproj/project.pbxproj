@@ -11,6 +11,8 @@
 		EB34F8B925D03E9B00ED1C2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB34F8B825D03E9B00ED1C2A /* ViewController.swift */; };
 		EB34F8BB25D03E9D00ED1C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB34F8BA25D03E9D00ED1C2A /* Assets.xcassets */; };
 		EB34F8BE25D03E9D00ED1C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB34F8BC25D03E9D00ED1C2A /* Main.storyboard */; };
+		EBE9E06E25D0DDA000852D73 /* inputHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE9E06D25D0DDA000852D73 /* inputHandler.swift */; };
+		EBE9E07B25D1793A00852D73 /* ReaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE9E07A25D1793A00852D73 /* ReaderModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EB34F8BF25D03E9D00ED1C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB34F8C025D03E9D00ED1C2A /* GReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GReader.entitlements; sourceTree = "<group>"; };
 		EB34F8C725D0653000ED1C2A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EBE9E06D25D0DDA000852D73 /* inputHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputHandler.swift; sourceTree = "<group>"; };
+		EBE9E07A25D1793A00852D73 /* ReaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 		EB34F8B525D03E9B00ED1C2A /* GReader */ = {
 			isa = PBXGroup;
 			children = (
+				EBE9E07925D1790A00852D73 /* Model */,
+				EBE9E06C25D0DD8800852D73 /* Controller */,
 				EB34F8B625D03E9B00ED1C2A /* AppDelegate.swift */,
 				EB34F8B825D03E9B00ED1C2A /* ViewController.swift */,
 				EB34F8BA25D03E9D00ED1C2A /* Assets.xcassets */,
@@ -63,6 +69,22 @@
 				EB34F8C025D03E9D00ED1C2A /* GReader.entitlements */,
 			);
 			path = GReader;
+			sourceTree = "<group>";
+		};
+		EBE9E06C25D0DD8800852D73 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EBE9E06D25D0DDA000852D73 /* inputHandler.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EBE9E07925D1790A00852D73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBE9E07A25D1793A00852D73 /* ReaderModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE9E07B25D1793A00852D73 /* ReaderModel.swift in Sources */,
 				EB34F8B925D03E9B00ED1C2A /* ViewController.swift in Sources */,
+				EBE9E06E25D0DDA000852D73 /* inputHandler.swift in Sources */,
 				EB34F8B725D03E9B00ED1C2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
